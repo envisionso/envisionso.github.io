@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$from = stripslashes($_POST['name']) . "<" . stripslashes($_POST['email']) . ">";
 
 	// Recipient Email Address 
-	$to = 'marveltheme@gmail.com';
+	$to = 'atifsyedlive@gmail.com';
 
 	// Email Subject 
 	$emailSubject = 'New Message from BentoFolio Contact Form';
